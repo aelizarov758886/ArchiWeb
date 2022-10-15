@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ArchiWeb</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<nav class="nav">
+					<h1 class="nav-title"><a>ArchiWeb</a></h1>
+					<ul class="nav-site">
+						<li class="nav-site-item-current nav-site-item"><a>Home</a></li>
+						<li class="nav-site-item"><a href="#">Projects</a></li>
+						<li class="nav-site-item"><a href="#">About</a></li>
+						<li class="nav-site-item"><a href="#">Contact</a></li>
+					</ul>
+					<div class="nav-site-search">
+						<div class="nav-site-search-inner">
+							<label for="search" class="icon">
+								<span class="visually-hidden">Search</span>
+								<svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24.6582 18.572L19.79 14.3895C19.5703 14.2007 19.2725 14.0958 18.96 14.0958H18.1641C19.5117 12.6149 20.3125 10.7522 20.3125 8.72596C20.3125 3.90571 15.7666 0 10.1562 0C4.5459 0 0 3.90571 0 8.72596C0 13.5462 4.5459 17.4519 10.1562 17.4519C12.5146 17.4519 14.6826 16.7639 16.4062 15.6061V16.2899C16.4062 16.5584 16.5283 16.8143 16.748 17.003L21.6162 21.1856C22.0752 21.58 22.8174 21.58 23.2715 21.1856L24.6533 19.9984C25.1123 19.6041 25.1123 18.9664 24.6582 18.572ZM10.1562 14.0958C6.7041 14.0958 3.90625 11.6961 3.90625 8.72596C3.90625 5.75998 6.69922 3.35614 10.1562 3.35614C13.6084 3.35614 16.4062 5.75578 16.4062 8.72596C16.4062 11.692 13.6133 14.0958 10.1562 14.0958Z" fill="#2F2E2E"/>
+								</svg>
+							</label>
+							<input id="search" type="search" placeholder="Search...">
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<section class="sliders">
+				<div class="container container-slidshow">
+					<div class="mySlides fade">
+						<div class="slider-info">
+							<h2>Best Solution For Your Home</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet </p>
+						</div>
+						<img src="img/main-pic.jpg" alt="House photo">
+					</div>
+					<div class="mySlides fade">
+						<div class="slider-info">
+							<h2>Lorem ipsum dolor sit amet.</h2>
+							<p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Qui neque amet reprehenderit eius. Molestiae, eaque.</p>
+						</div>
+						<img src="img/main-pic-2.jpg" alt="House photo">
+					</div>
+					<div class="mySlides fade">
+						<div class="slider-info">
+							<h2>Lorem ipsum dolor sit.</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, dolore. </p>
+						</div>
+						<img src="img/main-pic-3.jpg" alt="House photo">
+					</div>
+					<a href="#" class="prev" onclick="plusSlides(-1)">
+						<svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.221 22.3925L12.0814 23.6125C11.5988 24.1292 10.8185 24.1292 10.3411 23.6125L0.361902 12.9343C-0.120634 12.4177 -0.120634 11.5823 0.361902 11.0712L10.3411 0.387451C10.8237 -0.12915 11.604 -0.12915 12.0814 0.387451L13.221 1.60751C13.7086 2.12961 13.6984 2.98145 13.2004 3.49256L7.01473 9.80169H21.768C22.4507 9.80169 23 10.3897 23 11.1207V12.8793C23 13.6103 22.4507 14.1983 21.768 14.1983H7.01473L13.2004 20.5074C13.7035 21.0185 13.7138 21.8704 13.221 22.3925Z" fill="#3C3D41"/></svg>
+					</a>
+					<a href="#" class="next" onclick="plusSlides(1)">
+						<svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.77904 22.3925L10.9186 23.6125C11.4012 24.1292 12.1815 24.1292 12.6589 23.6125L22.6381 12.9343C23.1206 12.4177 23.1206 11.5823 22.6381 11.0712L12.6589 0.387451C12.1763 -0.12915 11.396 -0.12915 10.9186 0.387451L9.77904 1.60751C9.29137 2.12961 9.30164 2.98145 9.79958 3.49256L15.9853 9.80169H1.23201C0.549269 9.80169 0 10.3897 0 11.1207V12.8793C0 13.6103 0.549269 14.1983 1.23201 14.1983H15.9853L9.79958 20.5074C9.29651 21.0185 9.28624 21.8704 9.77904 22.3925Z" fill="#3C3D41"/>
+						</svg>
+					</a>
+				</div>
+			</section>
+			<section class="services">
+				<div class="container container-services">
+					<div class="services-inner">
+						<h2 class="service-title">Our Services</h2>
+						<ul class="service-list">
+							<li class="service-list-item">
+								<img src="img/service-img-1.png" alt="">
+								<h3>Planning</h3>
+								<p>Our Services Line one Servive line two</p>
+							</li>
+							<li class="service-list-item">
+								<img src="img/service-img-2.png" alt="">
+								<h3>Interior</h3>
+								<p>Our Services Line one Servive line two</p>
+							</li>
+							<li class="service-list-item">
+								<img src="img/service-img-3.png" alt="">
+								<h3>Exterior</h3>
+								<p>Our Services Line one Servive line two</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="about-us">
+				<div class="container container-about-us">
+					<div class="about-us-wrapper">
+						<img src="img/about-us-img.jpg" alt="Photo with plan">
+						<div class="about-us-info">
+							<h2>About Us</h2>
+							<p>Lorem ipsum dolor sit amet, 
+							consectetur adipiscing elit ut 
+							aliquam, purus sit amet luctus 
+							venenatis, lectus magna fringilla 
+							urna, porttitor</p>
+							<a href="#"><b>Read more</b></a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="projects">
+				<div class="container container-project">
+					<fieldset class="projects-fillters">
+						<h2>Our Projects</h2>
+						<ul>
+							<li class="filter-option">
+								<input id="All" class="visually-hidden filter-input filter-input-radio" type="radio" name="filter" value="All projects" checked>
+								<label for="All" class="All">All</label>
+							</li>
+							<li class="filter-option">
+								<input id="Furniture" class="visually-hidden filter-input filter-input-radio" type="radio" name="filter" value="Furniture">
+								<label for="Furniture" class="Furniture">Furniture</label>
+							</li>
+							<li class="filter-option">
+								<input id="Design" class="visually-hidden filter-input filter-input-radio" type="radio" name="filter" value="Design">
+								<label for="Design" class="Design">Design</label>
+							</li>
+							<li class="filter-option">
+								<input id="House" class="visually-hidden filter-input filter-input-radio" type="radio" name="filter" value="House">
+								<label for="House" class="House">House</label>
+							</li>
+						</ul>
+					</fieldset>
+					<ul class="projects-gallery">
+						<li class="projects-gallery-item">
+							<a href="#">
+								<img src="img/gallery-img-1.jpg" alt="Photo of the finished project">
+								<p>Our Services Line one Servive line two</p>
+							</a>
+						</li>
+						<li class="projects-gallery-item">
+							<a href="#">
+								<img src="img/gallery-img-2.jpg" alt="Photo of the finished project">
+								<p>Our Services Line one Servive line two</p>
+							</a>
+						</li>
+						<li class="projects-gallery-item">
+							<a href="#">
+								<img src="img/gallery-img-3.jpg" alt="Photo of the finished project">
+								<p>Our Services Line one Servive line two</p>
+							</a>
+						</li>
+						<li class="projects-gallery-item">
+							<a href="#">
+								<img src="img/gallery-img-4.jpg" alt="Photo of the finished project">
+								<p>Our Services Line one Servive line two</p>
+							</a>
+						</li>
+						<li class="projects-gallery-item">
+							<a href="#">
+								<img src="img/gallery-img-5.jpg" alt="Photo of the finished project">
+								<p>Our Services Line one Servive line two</p>
+							</a>
+						</li>
+						<li class="projects-gallery-item">
+							<a href="#">
+								<img src="img/gallery-img-6.jpg" alt="Photo of the finished project">
+								<p>Our Services Line one Servive line two</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="testimonial">	
+					<div class="container container-testimonial">	
+						<h2 class="testimonial-title">Testimonial</h2>
+						<div class="testimonial-wrapper">
+							<div class="testimonial-item">
+								<img src="img/man-photo-1.png" alt="Photo of man">
+								<div class="testimonial-info">
+									<b>James Passaquindici Arcand</b>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis</p>
+								</div>
+							</div>
+							<div class="testimonial-item">
+								<img src="img/man-photo-2.png" alt="Photo of man">
+								<div class="testimonial-info">
+									<b>Abram Schleifer</b>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis</p>
+								</div>
+							</div>
+						</div>
+					</div>
+			</section>	
+		</main>
+		<footer class="footer">
+			<div class="container container-footer">
+				<div class="footer-wrapper">
+					<section class="social">
+						<h2>ArchiWeb</h2>
+						<p>Archiweb is an architectural consultant based in Berlin, Germany. We provide solutions for your architecture and residential design</p>
+						<ul class="social-list">
+							<li class="social-list-item">
+								<a href="#">
+									<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M24.2188 12.8615C24.2188 6.23117 18.7988 0.859131 12.1094 0.859131C5.41992 0.859131 0 6.23117 0 12.8615C0 18.8521 4.42822 23.8176 10.2173 24.7188V16.3311H7.14111V12.8615H10.2173V10.2171C10.2173 7.20927 12.0239 5.54781 14.791 5.54781C16.1162 5.54781 17.502 5.78205 17.502 5.78205V8.73426H15.9746C14.4707 8.73426 14.0015 9.6596 14.0015 10.6087V12.8615H17.3599L16.8228 16.3311H14.0015V24.7188C19.7905 23.8176 24.2188 18.8521 24.2188 12.8615Z" fill="#FAFAFA"/>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="#">
+									<svg width="26" height="21" viewBox="0 0 26 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.6489 5.85724C22.6648 6.07735 22.6648 6.2975 22.6648 6.5176C22.6648 13.2311 17.5094 20.9666 8.08677 20.9666C5.18384 20.9666 2.48716 20.1332 0.21875 18.6868C0.631201 18.734 1.02773 18.7497 1.45606 18.7497C3.85132 18.7497 6.0563 17.9479 7.81709 16.58C5.56455 16.5328 3.67686 15.0706 3.02647 13.0581C3.34375 13.1053 3.66099 13.1367 3.99414 13.1367C4.45415 13.1367 4.91421 13.0738 5.34248 12.9638C2.99478 12.4921 1.23394 10.4482 1.23394 7.97979V7.91692C1.91602 8.29426 2.70923 8.5301 3.5499 8.5615C2.16982 7.64958 1.26567 6.09308 1.26567 4.33215C1.26567 3.38882 1.51943 2.52408 1.96362 1.7694C4.48584 4.851 8.2771 6.86344 12.5283 7.08359C12.449 6.70625 12.4014 6.31323 12.4014 5.92016C12.4014 3.12153 14.6857 0.841797 17.5252 0.841797C19.0004 0.841797 20.3329 1.45497 21.2688 2.44549C22.4268 2.22538 23.5372 1.80086 24.5207 1.21914C24.1399 2.39835 23.331 3.38887 22.2682 4.01772C23.2993 3.90772 24.2986 3.62465 25.2187 3.23163C24.5208 4.23783 23.6483 5.13397 22.6489 5.85724Z" fill="#FAFAFA"/>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="#">
+									<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M11.1647 6.12538C8.0592 6.12538 5.55432 8.60808 5.55432 11.686C5.55432 14.764 8.0592 17.2467 11.1647 17.2467C14.2701 17.2467 16.775 14.764 16.775 11.686C16.775 8.60808 14.2701 6.12538 11.1647 6.12538ZM11.1647 15.3012C9.15784 15.3012 7.51721 13.6799 7.51721 11.686C7.51721 9.69214 9.15295 8.07089 11.1647 8.07089C13.1764 8.07089 14.8121 9.69214 14.8121 11.686C14.8121 13.6799 13.1715 15.3012 11.1647 15.3012ZM18.3131 5.89792C18.3131 6.61902 17.7272 7.19493 17.0045 7.19493C16.277 7.19493 15.6959 6.61418 15.6959 5.89792C15.6959 5.18167 16.2819 4.60092 17.0045 4.60092C17.7272 4.60092 18.3131 5.18167 18.3131 5.89792ZM22.0289 7.21428C21.9459 5.47688 21.5455 3.9379 20.2614 2.66994C18.9821 1.40198 17.4293 1.00513 15.6764 0.91802C13.8698 0.816389 8.45471 0.816389 6.64807 0.91802C4.90002 1.00029 3.34729 1.39714 2.06311 2.6651C0.778931 3.93306 0.383423 5.47204 0.295532 7.20944C0.192993 9.00008 0.192993 14.3671 0.295532 16.1578C0.37854 17.8952 0.778931 19.4342 2.06311 20.7021C3.34729 21.9701 4.89514 22.3669 6.64807 22.4541C8.45471 22.5557 13.8698 22.5557 15.6764 22.4541C17.4293 22.3718 18.9821 21.9749 20.2614 20.7021C21.5406 19.4342 21.941 17.8952 22.0289 16.1578C22.1315 14.3671 22.1315 9.00492 22.0289 7.21428ZM19.6949 18.0791C19.3141 19.0276 18.5768 19.7584 17.6149 20.1407C16.1744 20.707 12.7565 20.5763 11.1647 20.5763C9.57288 20.5763 6.15002 20.7021 4.71448 20.1407C3.75745 19.7633 3.02014 19.0325 2.6344 18.0791C2.06311 16.6514 2.19495 13.2637 2.19495 11.686C2.19495 10.1083 2.06799 6.71581 2.6344 5.29298C3.01526 4.34443 3.75256 3.61365 4.71448 3.23133C6.15491 2.6651 9.57288 2.79577 11.1647 2.79577C12.7565 2.79577 16.1793 2.66994 17.6149 3.23133C18.5719 3.60881 19.3092 4.33959 19.6949 5.29298C20.2662 6.72065 20.1344 10.1083 20.1344 11.686C20.1344 13.2637 20.2662 16.6563 19.6949 18.0791Z" fill="#FAFAFA"/>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</section>
+					<section class="articles">
+						<h3>Articles</h3>
+						<p>7 Tips for Kids Friendly<br>Interior Design<br><br>Smart Tips for Changing<br>a Room<br><br>Eco-friendly design</p>
+					</section>
+					<section class="links">
+						<h3>Links</h3>
+						<ul>
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+					</section>
+					<section class="map">
+						<h3>Location</h3>
+						<a href="#"><img src="img/map.jpg" alt="Map"></a>
+					</section>
+				</div>	
+			</div>
+		</footer>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
